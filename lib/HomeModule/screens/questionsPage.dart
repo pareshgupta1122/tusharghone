@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tusharghone/HomeModule/screens/resultScreen.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/providers/quiz_provider.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/HomeModule/providers/quiz_provider.dart';
 
 class QuestionPage extends StatefulWidget {
   static const routeName = '/QuestionPage';

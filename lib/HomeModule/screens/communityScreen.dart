@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/providers/course_provider.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/HomeModule/providers/course_provider.dart';
 
 class MyCommunityScreen extends StatefulWidget {
   const MyCommunityScreen({super.key});

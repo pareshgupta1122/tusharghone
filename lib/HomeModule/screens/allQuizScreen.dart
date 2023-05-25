@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
 
 class AllQuizScreen extends StatefulWidget {
   static const routeName = '/allQuizScreen';

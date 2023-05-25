@@ -7,12 +7,12 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:localstorage/localstorage.dart';
 import 'package:provider/provider.dart';
 import 'package:tusharghone/HomeModule/screens/tabs_screen.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
+import 'package:tusharghone/hexColor.dart';
 
-import 'package:tusharghone/InroModule/screens/introPage2.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/InroModule/screens/mobilenumberScreen.dart';
-import 'package:tusharghone/providers/auth_data.dart';
+import 'package:tusharghone/AuthModule/screens/introPage2.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/AuthModule/screens/mobilenumberScreen.dart';
+import 'package:tusharghone/AuthModule/providers/auth_provider.dart';
 
 class Intro1Page extends StatefulWidget {
   static const routeName = '/intro1';

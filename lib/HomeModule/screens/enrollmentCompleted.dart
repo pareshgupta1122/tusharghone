@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tusharghone/HomeModule/screens/tabs_screen.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/providers/course_provider.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/HomeModule/providers/course_provider.dart';
 
 class EnrollCompleteScreen extends StatelessWidget {
   static const routeName = '/EnrollComplete';

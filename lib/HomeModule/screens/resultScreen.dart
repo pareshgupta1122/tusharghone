@@ -3,10 +3,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:tusharghone/HomeModule/screens/courseDetailsScreen.dart';
 import 'package:tusharghone/HomeModule/widgets/CoursesWidget.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/providers/course_provider.dart';
-import 'package:tusharghone/providers/quiz_provider.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/HomeModule/providers/course_provider.dart';
+import 'package:tusharghone/HomeModule/providers/quiz_provider.dart';
 
 class ResultScreen extends StatefulWidget {
   static const routeName = '/ResultScreen';

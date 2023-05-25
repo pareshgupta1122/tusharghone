@@ -3,10 +3,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:provider/provider.dart';
 import 'package:tusharghone/HomeModule/screens/tabs_screen.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/InroModule/screens/detailScreen2.dart';
-import 'package:tusharghone/providers/auth_data.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/AuthModule/screens/detailScreen2.dart';
+import 'package:tusharghone/AuthModule/providers/auth_provider.dart';
 
 class MobileVerificationScreen extends StatefulWidget {
   static const routeName = '/mobileVerfy';

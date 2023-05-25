@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tusharghone/HomeModule/screens/questionsPage.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import '../../InroModule/modals/hexColor.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import '../../hexColor.dart';
 
 class StartQuiz extends StatefulWidget {
   static const routeName = '/StartQuiz';

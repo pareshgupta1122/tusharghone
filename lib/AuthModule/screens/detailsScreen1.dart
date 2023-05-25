@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/InroModule/screens/detailScreen2.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/AuthModule/screens/detailScreen2.dart';
 
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
 
 class DetailScreen1 extends StatelessWidget {
   static const routeName = '/detailsPage1';

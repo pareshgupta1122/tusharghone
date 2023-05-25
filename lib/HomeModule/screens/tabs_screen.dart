@@ -5,7 +5,7 @@ import 'package:tusharghone/HomeModule/screens/homeScreen.dart';
 import 'package:tusharghone/HomeModule/screens/profile.dart';
 import 'package:tusharghone/HomeModule/screens/topTabScreen.dart';
 import 'package:tusharghone/HomeModule/screens/wishListScreen.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
+import 'package:tusharghone/hexColor.dart';
 
 class TabsScreen extends StatefulWidget {
   static const routeName = '/tabsScreen';

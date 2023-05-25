@@ -11,15 +11,15 @@ import 'package:tusharghone/HomeModule/screens/resultScreen.dart';
 import 'package:tusharghone/HomeModule/screens/startQuiz.dart';
 import 'package:tusharghone/HomeModule/screens/tabs_screen.dart';
 import 'package:tusharghone/HomeModule/screens/topTabScreen.dart';
-import 'package:tusharghone/InroModule/screens/detailScreen2.dart';
-import 'package:tusharghone/InroModule/screens/detailsScreen1.dart';
-import 'package:tusharghone/InroModule/screens/intro1page.dart';
-import 'package:tusharghone/InroModule/screens/introPage2.dart';
-import 'package:tusharghone/InroModule/screens/mobilenumberScreen.dart';
-import 'package:tusharghone/InroModule/screens/mobileverification.dart';
-import 'package:tusharghone/providers/auth_data.dart';
-import 'package:tusharghone/providers/course_provider.dart';
-import 'package:tusharghone/providers/quiz_provider.dart';
+import 'package:tusharghone/AuthModule/screens/detailScreen2.dart';
+import 'package:tusharghone/AuthModule/screens/detailsScreen1.dart';
+import 'package:tusharghone/AuthModule/screens/intro1page.dart';
+import 'package:tusharghone/AuthModule/screens/introPage2.dart';
+import 'package:tusharghone/AuthModule/screens/mobilenumberScreen.dart';
+import 'package:tusharghone/AuthModule/screens/mobileverification.dart';
+import 'package:tusharghone/AuthModule/providers/auth_provider.dart';
+import 'package:tusharghone/HomeModule/providers/course_provider.dart';
+import 'package:tusharghone/HomeModule/providers/quiz_provider.dart';
 
 void main() {
   runApp(const MyApp());

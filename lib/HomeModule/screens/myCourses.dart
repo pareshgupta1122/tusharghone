@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:tusharghone/HomeModule/screens/homeScreen.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/providers/course_provider.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/HomeModule/providers/course_provider.dart';
 
 class MycoursesScreen extends StatelessWidget {
   static const routeName = '/myCourses';

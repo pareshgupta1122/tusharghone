@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tusharghone/HomeModule/screens/conpletedCourse.dart';
 import 'package:tusharghone/HomeModule/screens/myCourses.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
 
 class TopTabScreen extends StatefulWidget {
   static const routename = '/topTabScreen';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

@@ -8,12 +8,12 @@ import 'package:tusharghone/HomeModule/screens/courseDetailsScreen.dart';
 import 'package:tusharghone/HomeModule/screens/startQuiz.dart';
 import 'package:tusharghone/HomeModule/widgets/CoursesWidget.dart';
 import 'package:tusharghone/HomeModule/widgets/quizCard.dart';
-import 'package:tusharghone/InroModule/modals/Bgcontainer.dart';
-import 'package:tusharghone/InroModule/modals/hexColor.dart';
-import 'package:tusharghone/providers/auth_data.dart';
-import 'package:tusharghone/providers/course_provider.dart';
+import 'package:tusharghone/common_widgets/Bgcontainer.dart';
+import 'package:tusharghone/hexColor.dart';
+import 'package:tusharghone/AuthModule/providers/auth_provider.dart';
+import 'package:tusharghone/HomeModule/providers/course_provider.dart';
 
-import '../../providers/quiz_provider.dart';
+import '../providers/quiz_provider.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = '/HomeScreen';
